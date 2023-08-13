@@ -1,0 +1,83 @@
+*{
+    background-color: rgb(40, 50, 74);
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    position: relative;
+    animation: slide 2s;
+}
+@keyframes slide {
+    from{
+        left: -100%;
+    }
+    to{
+        left: 0%;
+    }
+    
+}
+h1{
+    font-size: 50px;
+}
+input{
+    height: 50px;
+    width: 300px;
+    border: black;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: black;
+    transition: 0.3s;
+}
+input:hover{
+    height: 52px;
+    width: 305px;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    border: black;
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+    margin: 5px;
+    transition: 0.5s;
+}
+button:hover{
+    height: 55px;
+    width: 105px;
+    border:1px solid whitesmoke;
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+    margin: 5px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 90;
+    font-size: 20px;
+    color: black;
+    
+}
+
+ul li{
+    margin: 4px;
+}
